@@ -14,33 +14,31 @@ Prepare optimized feature sets for downstream classification
 
 Methodology-
 
-Image Preprocessing
-Grayscale conversion
-Noise removal
-Image resizing and normalization
-Feature Engineering
-Flattening image matrices
-Applying Principal Component Analysis (PCA) for dimensionality reduction
-Dimensionality Reduction
-PCA used to retain maximum variance
-Reduces computational cost and improves efficiency
-Model-Ready Dataset
+Image Preprocessing ->
+Grayscale conversion ->
+Noise removal ->
+Image resizing and normalization ->
+Feature Engineering ->
+Flattening image matrices ->
+Applying Principal Component Analysis (PCA) for dimensionality reduction ->
+Dimensionality Reduction ->
+PCA used to retain maximum variance ->
+Reduces computational cost and improves efficiency ->
+Model-Ready Dataset .
+
 Extracted features can be used for ML classifiers such as:
-SVM
-Logistic Regression
+SVM,
+Logistic Regression,
+Random Forest,
+Neural Network.
 
 Technology used-
 
-Programming Language: Python
+Programming Language: Python,
+
 Libraries & Tools:
-NumPy
-scikit-learn
-OpenCV
-Matplotlib
-Jupyter Notebook
-
-
-
-Random Forest
-
-Neural Networks
+NumPy,
+scikit-learn,
+OpenCV,
+Matplotlib,
+Jupyter Notebook.
